@@ -1,0 +1,14 @@
+export { Header, DEFAULT_NAV_ITEMS } from "./Header";
+export type { NavItem, HeaderProps } from "./Header";
+export { Hero } from "./Hero";
+export { Skills } from "./Skills";
+export { Experience } from "./Experience";
+export { Projects } from "./Projects";
+export { PtlSimulatorModal } from "./PtlSimulatorModal";
+export { Education } from "./Education";
+export { Services } from "./Services";
+export { Testimonials } from "./Testimonials";
+export { Pricing } from "./Pricing";
+export { Contact } from "./Contact";
+export { Footer } from "./Footer";
+export { ClientLayout } from "../ClientLayout";
