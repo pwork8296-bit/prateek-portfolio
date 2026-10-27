@@ -188,7 +188,7 @@ FEATURED PROJECTS & VERIFIED RUNTIMES
             <div className="relative mt-space-sm aspect-square w-full rounded overflow-hidden bg-surface-container-highest">
               <Image
                 alt="Prateek Kumar - Freelance Software Developer and Software Teacher Trainer"
-                className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover object-top scale-105 blur grayscale hover:grayscale-0 transition-all duration-500"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAgObyoiAeGB7lLOu16AvHww9z-ukO94LNEB_P7DGuw8OEWPPr7KcmL5aojlEL23j44ebyQo6rE6RvGj7cTjEWI5JRVnHfy8OgcjlZRFHMvYlJOuWSfHgc4uvkLUi1El8OR3sMhm52RJS_eZ6tts2q-II0H7OHrnUGzpfhkq30hLnhyE-WrkRUy3FDsDoJY7GP_GPbaj_YixAQZ_UtA6DftqQkdqrFlngLIUPqrFNVpgBKBfvXLWSp"
                 width={400}
                 height={400}
