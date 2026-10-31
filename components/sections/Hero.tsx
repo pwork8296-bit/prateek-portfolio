@@ -15,7 +15,7 @@ LinkedIn: https://linkedin.com/in/prateek-kumar-229599184
 ==================================================
 SUMMARY
 ==================================================
-Versatile Freelance Software Developer and Technical Trainer with 5+ years of hands-on experience building scalable REST APIs, custom ERPs, and full-stack web applications, while conducting coding bootcamps, workshops, and mentoring 800+ aspiring and working engineers in modern software craft.
+Versatile Freelance Software Developer and Technical Trainer with 6+ years of hands-on experience building scalable REST APIs, custom ERPs, and full-stack web applications, while conducting coding bootcamps, workshops, and mentoring 800+ aspiring and working engineers in modern software craft.
 
 ==================================================
 EDUCATION
@@ -29,6 +29,9 @@ B.Sc Electronics (July 2016 – June 2019)
 ==================================================
 TECHNICAL SKILLS & PEDAGOGICAL DOMAINS
 ==================================================
+Core Languages & Frameworks (6 Yrs Exp):
+C++, Java, Python, PHP, JavaScript, Node.js, Spring Boot, FastAPI, Django, Laravel, WordPress, Next.js, React.js
+
 Frontend:
 HTML, CSS, JavaScript, jQuery, Ajax, Bootstrap, Tailwind CSS, Three.js, React.js, Next.js, Vanilla JS, TypeScript
 
@@ -128,14 +131,43 @@ FEATURED PROJECTS & VERIFIED RUNTIMES
           </h1>
 
           <p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
-            5+ years of battle-tested engineering experience architecting scalable REST APIs, ERP
-            systems, and e-commerce platforms using{" "}
+            6 years of battle-tested engineering experience architecting scalable REST APIs, ERP
+            systems, and modern web applications using{" "}
             <strong className="text-on-surface font-semibold">
-              FastAPI, Django, Laravel, Node.js, React.js
+              C++, Java, Python, PHP, JavaScript, Node.js, Spring Boot, FastAPI, Django, Laravel, WordPress, Next.js, and React
             </strong>
-            , and modern Technical SEO — paired with high-impact corporate coding bootcamps, hands-on
+            {" "}— paired with high-impact corporate coding bootcamps, hands-on
             software workshops, and 1-on-1 developer mentorship.
           </p>
+
+          {/* Core Tech Stack Badges */}
+          <div className="flex flex-wrap items-center gap-1.5 pt-space-2xs max-w-2xl">
+            <span className="font-label-caps text-label-caps text-primary uppercase font-bold mr-1">
+              Core Stack (6 Yrs):
+            </span>
+            {[
+              "C++",
+              "Java",
+              "Python",
+              "PHP",
+              "JavaScript",
+              "Node.js",
+              "Spring Boot",
+              "FastAPI",
+              "Django",
+              "Laravel",
+              "WordPress",
+              "Next.js",
+              "React",
+            ].map((tech) => (
+              <span
+                key={tech}
+                className="px-2 py-0.5 bg-surface-container-high border border-outline-variant/40 hover:border-primary-container text-on-surface font-code-inline text-[12px] rounded transition-colors"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
 
           {/* CTA Actions */}
           <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
@@ -214,8 +246,8 @@ FEATURED PROJECTS & VERIFIED RUNTIMES
             {/* Contact Credentials */}
             <div className="grid grid-cols-2 gap-space-xs mt-space-sm pt-space-xs border-t border-outline-variant/30 text-on-surface-variant font-code-inline text-code-inline">
               <div className="flex flex-col">
-                <span className="text-outline text-[11px] uppercase">Core Tech</span>
-                <span className="text-on-surface">FastAPI, Django, Laravel, React</span>
+                <span className="text-outline text-[11px] uppercase">Core Tech (6 Yrs)</span>
+                <span className="text-on-surface">C++, Java, Python, PHP, Node, React</span>
               </div>
               <div className="flex flex-col text-right">
                 <span className="text-outline text-[11px] uppercase">Direct Dispatch</span>
@@ -232,7 +264,7 @@ FEATURED PROJECTS & VERIFIED RUNTIMES
       <div className="mt-space-2xl grid grid-cols-2 md:grid-cols-4 gap-gutter bg-surface-container-low p-space-md rounded-xl border border-outline-variant/40 shadow-sm">
         <div className="flex flex-col p-space-xs border-l-2 border-primary-container">
           <span className="font-display-hero text-headline-lg lg:text-[44px] font-extrabold text-on-surface tracking-tight leading-none">
-            5+
+            6+
           </span>
           <span className="font-label-caps text-label-caps text-on-surface-variant uppercase mt-1">
             Years Production &amp; Teaching

@@ -129,7 +129,7 @@ export function Header({ navItems = DEFAULT_NAV_ITEMS }: HeaderProps) {
               <span className="font-label-caps text-label-caps text-on-surface-variant tracking-widest mt-1">
                 FREELANCE DEV &amp;
                 <br />
-                TECH TRAINER // 5+ yRS
+                TECH TRAINER // 6+ yRS
               </span>
             </div>
           </Link>

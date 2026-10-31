@@ -120,10 +120,10 @@ export function Contact() {
                     value={formData.serviceType}
                     onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
                   >
-                    <option value="backend-api">Freelance Backend REST API (FastAPI / Django / Laravel)</option>
-                    <option value="full-stack">Freelance Full-Stack Web App (React / Next.js)</option>
-                    <option value="erp-stock">Custom ERP &amp; Stock Management System</option>
-                    <option value="bootcamp">Corporate Software Training / Team Bootcamp</option>
+                    <option value="backend-api">Freelance Backend REST API (FastAPI / Django / Laravel / Spring Boot / Node)</option>
+                    <option value="full-stack">Freelance Full-Stack Web App (React / Next.js / Node)</option>
+                    <option value="erp-stock">Custom ERP, WordPress &amp; Stock Systems</option>
+                    <option value="bootcamp">Corporate Training &amp; Bootcamps (C++, Java, Python, Full-Stack)</option>
                     <option value="mentorship">1-on-1 Developer Mentorship &amp; Code Review</option>
                     <option value="retainer">Dedicated Developer Retainer (Part-time / Full-time)</option>
                     <option value="seo">Technical SEO &amp; Performance Audit</option>

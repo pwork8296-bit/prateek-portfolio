@@ -31,7 +31,7 @@ export function Footer() {
               </span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant max-w-sm">
-              Freelance Software Developer &amp; Software Teacher Trainer specializing in high-performance
+              Freelance Software Developer &amp; Software Developer, Teacher and Trainer with 6 yrs experience specializing in high-performance
               REST APIs, custom ERPs, developer bootcamps, and technical engineering mentorship.
             </p>
             <div className="flex items-center gap-space-sm pt-1">
@@ -103,8 +103,8 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant pt-2 border-t border-outline-variant/30">
-              <span className="font-code-body text-code-body">Backend: Python / FastAPI / Django</span>
-              <span className="font-code-body text-code-body">Full-Stack: React.js / Laravel / Next.js</span>
+              <span className="font-code-body text-code-body">Backend: C++, Java, Python, PHP, Node, Spring Boot, FastAPI, Django, Laravel</span>
+              <span className="font-code-body text-code-body">Frontend &amp; CMS: React, Next.js, JavaScript, WordPress</span>
             </div>
             <p className="font-label-caps text-label-caps text-on-surface-variant opacity-70 mt-1">
               High-performance production code &amp; curriculum-driven instruction.

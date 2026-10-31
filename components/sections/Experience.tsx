@@ -20,7 +20,6 @@ export function Experience() {
         "Django",
         "Laravel",
         "React.js",
-        "Tech Bootcamps",
         "1-on-1 Mentorship",
         "PostgreSQL",
       ],
@@ -101,7 +100,7 @@ export function Experience() {
     >
       <div className="flex flex-col gap-space-xs mb-space-2xl">
         <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase">
-          // CAREER_TRAJECTORY (5+ yEARS)
+          // CAREER_TRAJECTORY (6+ yEARS)
         </span>
         <h2 className="font-headline-lg text-headline-lg text-on-surface font-bold" id="experience-heading">
           Proven Track Record in Freelance Engineering &amp; Software Training

@@ -10,13 +10,55 @@ export function Skills() {
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-sm">
         <div className="flex flex-col gap-space-xs">
           <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase">
-            // PROFICIENCY_MATRIX, TECH_STACK &amp; TEACHING DOMAINS
+            // PROFICIENCY_MATRIX, TECH_STACK &amp; TEACHING DOMAINS (6 YRS EXP)
           </span>
           <h2 className="font-headline-lg text-headline-lg text-on-surface font-bold" id="skills-heading">
             Engineering Arsenal &amp; Technical Pedagogy
           </h2>
         </div>
         <span className="font-code-body text-code-body text-on-surface-variant">4 SPECIALIZED DOMAINS</span>
+      </div>
+
+      {/* Core Languages & Frameworks Showcase (6 Yrs Experience) */}
+      <div className="mb-space-xl p-space-md sm:p-space-lg bg-surface-container rounded-xl border border-primary-container/40 flex flex-col gap-space-sm shadow-sm hidden">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-outline-variant/30 pb-space-xs">
+          <span className="font-label-caps text-label-caps text-primary tracking-wider uppercase font-bold flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+            CORE LANGUAGES &amp; FRAMEWORKS // 6 YRS PRODUCTION EXPERIENCE
+          </span>
+          <span className="font-code-inline text-[12px] text-on-surface-variant">
+            13 VERIFIED RUNTIMES &amp; FRAMEWORKS
+          </span>
+        </div>
+        <div className="flex flex-wrap gap-2.5 pt-1">
+          {[
+            { name: "C++", type: "Language" },
+            { name: "Java", type: "Language" },
+            { name: "Python", type: "Language" },
+            { name: "PHP", type: "Language" },
+            { name: "JavaScript", type: "Language" },
+            { name: "Node.js", type: "Runtime" },
+            { name: "Spring Boot", type: "Framework" },
+            { name: "FastAPI", type: "Framework" },
+            { name: "Django", type: "Framework" },
+            { name: "Laravel", type: "Framework" },
+            { name: "WordPress", type: "CMS / Framework" },
+            { name: "Next.js", type: "Framework" },
+            { name: "React", type: "Library / UI" },
+          ].map((tech) => (
+            <div
+              key={tech.name}
+              className="flex items-center gap-2 px-3 py-1.5 bg-surface-container-high hover:bg-surface-bright border border-outline-variant/50 hover:border-primary-container rounded-lg transition-all group"
+            >
+              <span className="font-code-inline text-sm font-bold text-on-surface group-hover:text-primary transition-colors">
+                {tech.name}
+              </span>
+              <span className="text-[10px] font-label-caps uppercase px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface-variant border border-outline-variant/30">
+                {tech.type}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* 4-Quadrant Bento Grid */}
@@ -86,10 +128,11 @@ export function Skills() {
                 "Laravel",
                 "PHP (Core & OOP)",
                 "Node.js",
-                "Express.js",
-                "Java & Spring Boot",
+                "Spring Boot",
+                "Java",
                 "C++",
                 "WordPress",
+                "Express.js",
                 "REST APIs & JWT",
                 "Payment Integration",
               ].map((skill) => (

@@ -6,27 +6,27 @@ export function Services() {
     {
       icon: "api",
       title: "Freelance Backend & APIs",
-      desc: "Asynchronous, high-throughput RESTful API microservices built with Python (FastAPI, Django) and PHP (Laravel, Core PHP) with JWT authentication and payment gateways.",
+      desc: "Asynchronous, high-throughput RESTful API microservices built with Python (FastAPI, Django), PHP (Laravel), Node.js, Java (Spring Boot), and C++ with JWT authentication and payment gateways.",
       items: [
-        "FastAPI & Django Microservices",
-        "Laravel Enterprise Endpoints",
+        "FastAPI, Django & Spring Boot APIs",
+        "Laravel & Node.js Enterprise Services",
         "JWT Auth & Cloud Deployment",
       ],
     },
     {
       icon: "devices",
       title: "Custom ERPs & Web Apps",
-      desc: "Tailored inventory stock management ERPs, responsive portals, and e-commerce platforms engineered with React.js, Next.js, Node.js, and MySQL.",
+      desc: "Tailored inventory stock management ERPs, responsive portals, WordPress solutions, and e-commerce platforms engineered with React.js, Next.js, Node.js, and MySQL.",
       items: [
         "Stock & Inventory ERP Systems",
         "React.js & Next.js Client Apps",
-        "Multi-Tenant Role Permissions",
+        "WordPress & Custom CMS Solutions",
       ],
     },
     {
       icon: "school",
       title: "Software Bootcamps & Cohorts",
-      desc: "Corporate upskilling cohorts, college workshops, and intensive coding bootcamps covering Python, Django, FastAPI, Laravel, React, and Git from ground zero to production.",
+      desc: "Corporate upskilling cohorts, college workshops, and intensive coding bootcamps covering C++, Java, Python, Spring Boot, FastAPI, Django, Laravel, React, and Next.js.",
       items: [
         "Hands-On Project Curriculum",
         "Full-Stack & Backend Masterclasses",

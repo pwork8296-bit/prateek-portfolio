@@ -93,7 +93,7 @@ export function Pricing() {
             <ul className="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface pt-space-sm border-t border-outline-variant/40">
               <li className="flex items-center gap-space-xs">
                 <span className="text-primary font-bold">✓</span>
-                <span>Full-Stack PR delivery (FastAPI, Django, Laravel, React)</span>
+                <span>Full-Stack PR delivery (FastAPI, Django, Laravel, React, Node, Spring Boot)</span>
               </li>
               <li className="flex items-center gap-space-xs">
                 <span className="text-primary font-bold">✓</span>
@@ -139,7 +139,7 @@ export function Pricing() {
             <ul className="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant pt-space-sm border-t border-outline-variant/30">
               <li className="flex items-center gap-space-xs">
                 <span className="text-primary font-bold">✓</span>
-                <span>Multi-week team bootcamps in Python, Django, FastAPI &amp; React</span>
+                <span>Multi-week team bootcamps in C++, Java, Python, Spring Boot, Django, FastAPI &amp; React</span>
               </li>
               <li className="flex items-center gap-space-xs">
                 <span className="text-primary font-bold">✓</span>
