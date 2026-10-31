@@ -109,7 +109,7 @@ FEATURED PROJECTS & VERIFIED RUNTIMES
         {/* Left Hero Content */}
         <div className="lg:col-span-7 flex flex-col gap-space-md z-10">
           {/* Status Pill */}
-          <div className="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container border border-outline-variant/40 rounded-full w-max shadow-sm">
+          <div className="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-container border border-outline-variant/40 rounded-full shadow-sm">
             <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-ping"></span>
             <span className="font-label-caps text-label-caps uppercase tracking-wider text-primary">
               SYS.STATUS: Available for Freelance Contracts &amp; Developer Training Cohorts
